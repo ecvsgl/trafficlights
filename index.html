@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Traffic Lights</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <script src='main.js'></script>
+</head>
+
+
+<body>
+    <div>
+        <h1>Provide Traffic Light Input</h1>
+        <div>Content should be in similar to "G20;Y30;R10" in G, Y or R and with seconds for each.</div>
+        <br>
+
+        <button id="start_button">Start Lights</button>
+        <button id="reset_button">Reset Lights</button>
+        <input type="text" id="light_input">
+    </div>
+
+    <br>
+
+    <span>Time Remaining in Light: </span>
+    <span><input type="text" id="remaining_time"></span>
+    
+    <div class="lightbox">
+        <div class="circle" id="redlight"></div>
+        <br>
+        <div class="circle" id="yellowlight"></div>
+        <br>
+        <div class="circle" id="greenlight"></div>
+    </div>
+
+</body>
+
+
+</html>
